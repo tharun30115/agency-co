@@ -4,8 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agency.Co</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">  
+    <link rel="preload" as="image" href="./assets/images/hero-banner.png">
 </head>
-<body>
+<body id="top">
+
+    <header class="header" data-header>
+        <div class="container">
+    
+          <a href="#" class="logo">Agency.Co</a>
+    
+          <nav class="navbar" data-navbar>
+    
+            <div class="wrapper">
+              <a href="#" class="logo">Agency.Co</a>
+    
+              <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+                <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+              </button>
+            </div>
+    
+            <ul class="navbar-list">
+    
+              <li class="navbar-item">
+                <a href="#home" class="navbar-link" data-nav-link>Home</a>
+              </li>
+    
+              <li class="navbar-item">
+                <a href="#service" class="navbar-link" data-nav-link>Services</a>
+              </li>
+    
+              <li class="navbar-item">
+                <a href="#feature" class="navbar-link" data-nav-link>Features</a>
+              </li>
+    
+              <li class="navbar-item">
+                <a href="#project" class="navbar-link" data-nav-link>Portfolio</a>
+              </li>
+    
+              <li class="navbar-item">
+                <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+              </li>
+    
+            </ul>
+    
+          </nav>
+    
+          <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+            <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+          </button>
+    
+          <a href="#" class="btn btn-primary has-before has-after">Let’s Talk 👋</a>
+    
+          <div class="overlay" data-nav-toggler data-overlay></div>
+    
+        </div>
+      </header>
     
 </body>
 </html>
